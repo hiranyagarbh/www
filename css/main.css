@@ -1,0 +1,49 @@
+html,
+body {
+    background: #9f9f9f;
+    color: #52565e;
+}
+a {
+    color: #52565e;
+}
+a i {
+    font-size: 20px;
+}
+#wrapper {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 600px;
+    height: 400px;
+    background: #fff;
+    text-align: left;
+    border: 2px solid red;
+}
+#inner {
+    padding: 30px 30px;
+}
+
+/* header */
+
+#txt00 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+/* desc */
+
+#txt01 {
+    font-family: 'Bitter', serif;
+}
+
+/* icons */
+
+.github:hover {
+    color: #4078c0;
+}
+.email:hover {
+    color: #01cd74;
+}
