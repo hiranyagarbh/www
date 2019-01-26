@@ -1,13 +1,16 @@
 html,
 body {
-    background: #9f9f9f;
+    background: #fff;
     color: #52565e;
+    overflow: hidden;
 }
 a {
     color: #52565e;
 }
 a i {
-    font-size: 20px;
+    font-size: 35px;
+    padding: 30px 20px 0 0;
+    color: #999;
 }
 #wrapper {
     position: absolute;
@@ -17,33 +20,54 @@ a i {
     bottom: 0;
     left: 0;
     width: 600px;
-    height: 400px;
+    height: 300px;
     background: #fff;
     text-align: left;
-    border: 2px solid red;
 }
 #inner {
-    padding: 30px 30px;
 }
 
 /* header */
 
 #txt00 {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 300;
+    font-family: 'ZCOOL XiaoWei', serif;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 5em;
+    color: #999;
 }
 
 /* desc */
 
 #txt01 {
     font-family: 'Bitter', serif;
+    font-size: 24px;
+    color: #999;
 }
 
 /* icons */
 
-.github:hover {
+.fa-github:hover {
     color: #4078c0;
 }
-.email:hover {
+.fa-envelope:hover {
     color: #01cd74;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 4px;
+	height: 24px;
+	background-color: red;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: red; 
+	}
 }
