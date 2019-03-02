@@ -6,6 +6,7 @@ body {
 }
 a {
     color: #52565e;
+    text-decoration: none;
 }
 a i {
     font-size: 25px;
@@ -37,14 +38,6 @@ a i {
     color: #999;
 }
 
-/* desc */
-
-#txt01 {
-    font-family: 'Bitter', serif;
-    font-size: 24px;
-    color: #999;
-}
-
 /* icons */
 
 .fa-github:hover {
@@ -57,20 +50,13 @@ a i {
     color: #333;
 }
 
-#cursor {
-	display: inline-block;
-	vertical-align: middle;
-	width: 4px;
-	height: 24px;
-	background-color: red;
-	animation: blink .75s step-end infinite;
-}
-
-@keyframes blink {
-	from, to { 
-		background-color: transparent 
-	}
-	50% { 
-		background-color: red; 
-	}
+/* desc */
+.typewrite > .wrap {
+    cursor: default;
+    margin-left: 5px;
+    border-right: 2px solid #999; /*cursor*/
+    font-family: 'Bitter', serif;
+    font-size: 24px;
+    color: #999;
+    text-decoration: none !important;
 }
