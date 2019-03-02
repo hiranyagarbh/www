@@ -8,7 +8,7 @@ a {
     color: #52565e;
 }
 a i {
-    font-size: 35px;
+    font-size: 25px;
     padding: 30px 20px 0 0;
     color: #999;
 }
@@ -52,6 +52,9 @@ a i {
 }
 .fa-envelope:hover {
     color: #01cd74;
+}
+.fa-file-download:hover{
+    color: #333;
 }
 
 #cursor {
