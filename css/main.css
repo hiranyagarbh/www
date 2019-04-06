@@ -41,14 +41,18 @@ a i {
 
 /* icons */
 
+.fa-linkedin:hover{
+    color:#0077b5;
+}
+
 .fa-github:hover {
     color: #4078c0;
 }
 .fa-envelope:hover {
-    color: #01cd74;
+    color: #ea4335;
 }
 .fa-file-download:hover{
-    color: #333;
+    color: #47525d;
 }
 
 /* desc */
