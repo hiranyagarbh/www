@@ -25,8 +25,7 @@ a i {
     background: #fff;
     text-align: left;
 }
-#inner {
-}
+#inner {}
 
 /* header */
 
@@ -41,24 +40,25 @@ a i {
 
 /* icons */
 
-.fa-linkedin:hover{
-    color:#0077b5;
+.fa-linkedin:hover {
+    color: #0077b5;
 }
-
 .fa-github:hover {
     color: #4078c0;
 }
 .fa-envelope:hover {
     color: #ea4335;
 }
-.fa-file-download:hover{
+.fa-file-download:hover {
     color: #47525d;
 }
 
 /* desc */
+
 .typewrite > .wrap {
     cursor: default;
-    border-right: 2px solid #999; /*cursor*/
+    border-right: 2px solid #999;
+    /*cursor*/
     padding-right: 3px;
     font-family: 'Bitter', serif;
     font-size: 20px;
@@ -66,21 +66,24 @@ a i {
     text-decoration: none !important;
 }
 
+/* ========= RESPONSIVE ========== */
 
-/* ======= RESPONSIVE ========== */
 
 /* tablets */
+
 @media only screen and (min-width: 768px) {
     #txt00 {
         font-size: 3.5em;
     }
 }
+
 /* phones */
+
 @media (min-width: 320px) and (max-width: 480px) {
     #wrapper {
         width: 300px;
     }
-    #txt00{
+    #txt00 {
         font-size: 2.8em;
     }
     .typewrite > .wrap {
@@ -89,4 +92,4 @@ a i {
     a i {
         font-size: 20px;
     }
-} 
+}
