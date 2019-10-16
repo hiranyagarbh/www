@@ -1,2 +1,2 @@
 # www
-personal page/portfolio website (minimal)
+My portfolio 
